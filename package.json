@@ -1,0 +1,39 @@
+{
+  "name": "react-progress-simple",
+  "version": "1.0.0",
+  "description": "A cross-browser, accessible React wrapper for the HTML5 <progress> tag",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build progress.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcmillhj/react-progress-simple.git"
+  },
+  "keywords": [
+    "progress"
+  ],
+  "author": "Hunter McMillen <mcmillhj+npm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcmillhj/react-progress-simple/issues"
+  },
+  "homepage": "https://github.com/mcmillhj/react-progress-simple#readme",
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@types/react": "^16.9.32",
+    "@types/react-dom": "^16.9.6",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {}
+}

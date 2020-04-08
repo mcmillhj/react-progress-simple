@@ -1,0 +1,419 @@
+:root {
+  --width: 100%;
+  --height: 8px;
+  --foreground-color: tomato;
+  --background-color: lightgray;
+  --border-radius: 4px;
+  --segment-margin: 4px;
+}
+
+/*  Chrome / Safari */
+progress[value].progress {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  width: var(--width);
+  height: var(--height);
+  background-color: var(--background-color);
+}
+
+progress[value].progress::-webkit-progress-bar {
+  background-color: var(--background-color);
+  border-radius: var(--border-radius);
+}
+
+progress[value].progress::-webkit-progress-value {
+  background-color: var(--foreground-color);
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+}
+
+progress[value].progress.progress-segment.progress-segment-2 {
+  width: calc(
+    (var(--width) / 2) - ((var(--segment-margin) * (2 - 1)) / 2) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-3 {
+  width: calc(
+    (var(--width) / 3) - ((var(--segment-margin) * (3 - 1)) / 3) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-4 {
+  width: calc(
+    (var(--width) / 4) - ((var(--segment-margin) * (4 - 1)) / 4) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-5 {
+  width: calc(
+    (var(--width) / 5) - ((var(--segment-margin) * (5 - 1)) / 5) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-6 {
+  width: calc(
+    (var(--width) / 6) - ((var(--segment-margin) * (6 - 1)) / 6) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-7 {
+  width: calc(
+    (var(--width) / 7) - ((var(--segment-margin) * (7 - 1)) / 7) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-8 {
+  width: calc(
+    (var(--width) / 8) - ((var(--segment-margin) * (8 - 1)) / 8) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-9 {
+  width: calc(
+    (var(--width) / 9) - ((var(--segment-margin) * (9 - 1)) / 9) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-10 {
+  width: calc(
+    (var(--width) / 10) - ((var(--segment-margin) * (10 - 1)) / 10) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-11 {
+  width: calc(
+    (var(--width) / 11) - ((var(--segment-margin) * (11 - 1)) / 11) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-12 {
+  width: calc(
+    (var(--width) / 12) - ((var(--segment-margin) * (12 - 1)) / 12) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-13 {
+  width: calc(
+    (var(--width) / 13) - ((var(--segment-margin) * (13 - 1)) / 13) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-14 {
+  width: calc(
+    (var(--width) / 14) - ((var(--segment-margin) * (14 - 1)) / 14) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-15 {
+  width: calc(
+    (var(--width) / 15) - ((var(--segment-margin) * (15 - 1)) / 15) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-16 {
+  width: calc(
+    (var(--width) / 16) - ((var(--segment-margin) * (16 - 1)) / 16) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-17 {
+  width: calc(
+    (var(--width) / 17) - ((var(--segment-margin) * (17 - 1)) / 17) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-18 {
+  width: calc(
+    (var(--width) / 18) - ((var(--segment-margin) * (18 - 1)) / 18) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-19 {
+  width: calc(
+    (var(--width) / 19) - ((var(--segment-margin) * (19 - 1)) / 19) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-20 {
+  width: calc(
+    (var(--width) / 20) - ((var(--segment-margin) * (20 - 1)) / 20) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-21 {
+  width: calc(
+    (var(--width) / 21) - ((var(--segment-margin) * (21 - 1)) / 21) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-22 {
+  width: calc(
+    (var(--width) / 22) - ((var(--segment-margin) * (22 - 1)) / 22) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-23 {
+  width: calc(
+    (var(--width) / 23) - ((var(--segment-margin) * (23 - 1)) / 23) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-24 {
+  width: calc(
+    (var(--width) / 24) - ((var(--segment-margin) * (24 - 1)) / 24) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-25 {
+  width: calc(
+    (var(--width) / 25) - ((var(--segment-margin) * (25 - 1)) / 25) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-26 {
+  width: calc(
+    (var(--width) / 26) - ((var(--segment-margin) * (26 - 1)) / 26) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-27 {
+  width: calc(
+    (var(--width) / 27) - ((var(--segment-margin) * (27 - 1)) / 27) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-28 {
+  width: calc(
+    (var(--width) / 28) - ((var(--segment-margin) * (28 - 1)) / 28) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-29 {
+  width: calc(
+    (var(--width) / 29) - ((var(--segment-margin) * (29 - 1)) / 29) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-30 {
+  width: calc(
+    (var(--width) / 30) - ((var(--segment-margin) * (30 - 1)) / 30) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-31 {
+  width: calc(
+    (var(--width) / 31) - ((var(--segment-margin) * (31 - 1)) / 31) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-32 {
+  width: calc(
+    (var(--width) / 32) - ((var(--segment-margin) * (32 - 1)) / 32) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-33 {
+  width: calc(
+    (var(--width) / 33) - ((var(--segment-margin) * (33 - 1)) / 33) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-34 {
+  width: calc(
+    (var(--width) / 34) - ((var(--segment-margin) * (34 - 1)) / 34) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-35 {
+  width: calc(
+    (var(--width) / 35) - ((var(--segment-margin) * (35 - 1)) / 35) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-36 {
+  width: calc(
+    (var(--width) / 36) - ((var(--segment-margin) * (36 - 1)) / 36) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-37 {
+  width: calc(
+    (var(--width) / 37) - ((var(--segment-margin) * (37 - 1)) / 37) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-38 {
+  width: calc(
+    (var(--width) / 38) - ((var(--segment-margin) * (38 - 1)) / 38) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-39 {
+  width: calc(
+    (var(--width) / 39) - ((var(--segment-margin) * (39 - 1)) / 39) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-40 {
+  width: calc(
+    (var(--width) / 40) - ((var(--segment-margin) * (40 - 1)) / 40) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-41 {
+  width: calc(
+    (var(--width) / 41) - ((var(--segment-margin) * (41 - 1)) / 41) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-42 {
+  width: calc(
+    (var(--width) / 42) - ((var(--segment-margin) * (42 - 1)) / 42) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-43 {
+  width: calc(
+    (var(--width) / 43) - ((var(--segment-margin) * (43 - 1)) / 43) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-44 {
+  width: calc(
+    (var(--width) / 44) - ((var(--segment-margin) * (44 - 1)) / 44) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-45 {
+  width: calc(
+    (var(--width) / 45) - ((var(--segment-margin) * (45 - 1)) / 45) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-46 {
+  width: calc(
+    (var(--width) / 46) - ((var(--segment-margin) * (46 - 1)) / 46) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-47 {
+  width: calc(
+    (var(--width) / 47) - ((var(--segment-margin) * (47 - 1)) / 47) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-48 {
+  width: calc(
+    (var(--width) / 48) - ((var(--segment-margin) * (48 - 1)) / 48) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-49 {
+  width: calc(
+    (var(--width) / 49) - ((var(--segment-margin) * (49 - 1)) / 49) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment.progress-segment-50 {
+  width: calc(
+    (var(--width) / 50) - ((var(--segment-margin) * (50 - 1)) / 50) - 0.1px
+  );
+}
+
+progress[value].progress.progress-segment
+  + progress[value].progress.progress-segment {
+  margin-left: var(--segment-margin);
+}
+
+progress[value].progress.progress-segment::-webkit-progress-bar,
+progress[value].progress.progress-segment::-webkit-progress-value {
+  border-radius: unset;
+}
+
+progress[value].progress.progress-segment::-webkit-progress-value {
+  background-color: var(--foreground-color);
+}
+
+progress[value].progress.progress-segment.progress-segment-start::-webkit-progress-bar,
+progress[value].progress.progress-segment.progress-segment-start::-webkit-progress-value {
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+}
+
+/* line 65, stdin */
+progress[value].progress.progress-segment.progress-segment-end::-webkit-progress-bar,
+progress[value].progress.progress-segment.progress-segment-end::-webkit-progress-value {
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+progress[value="100"].progress::-webkit-progress-value {
+  border-radius: var(--border-radius);
+}
+/* end Chrome / Safari */
+
+/* Firefox */
+progress[value].progress {
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: var(--border-radius);
+}
+
+progress[value].progress::-moz-progress-bar {
+  background-color: var(--foreground-color);
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+}
+
+progress[value].progress.progress-segment {
+  border-radius: unset;
+}
+
+progress[value].progress.progress-segment::-moz-progress-bar {
+  border-radius: unset;
+  background-color: var(--foreground-color);
+}
+
+progress[value].progress.progress-segment.progress-segment-start {
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+}
+
+progress[value].progress.progress-segment.progress-segment-start::-moz-progress-bar {
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+}
+
+progress[value].progress.progress-segment.progress-segment-end {
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+progress[value].progress.progress-segment.progress-segment-end::-moz-progress-bar {
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+progress[value="100"].progress::-moz-progress-bar {
+  border-radius: var(--border-radius);
+}
+/* end Firefox */
+
+/* IE11 / Edge */
+progress.progress {
+  border-radius: var(--border-radius);
+}
+progress.progress::-ms-fill {
+  border: none;
+  background-color: var(--foreground-color);
+  color: var(--background-color);
+}
+progress.progress.progress-segment {
+  border-radius: 0;
+}
+progress.progress.progress-segment::-ms-fill {
+  background-color: var(--foreground-color);
+}
+/* end IE11 / Edge */
