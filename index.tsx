@@ -9,11 +9,11 @@ ReactDOM.render(
       <Progress key={idx} value={idx + 1} max={10} />,
       <div key={idx + "-spacer"} />,
     ])}
-    {[...new Array(50)].map((_, idx) => [
+    {[...new Array(10)].map((_, idx) => [
       <Progress
         key={idx}
         value={idx + 1}
-        max={50}
+        max={10}
         segmented
         options={{
           foregroundColor: "royalblue",

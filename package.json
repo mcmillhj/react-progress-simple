@@ -2,6 +2,13 @@
   "name": "react-progress-simple",
   "version": "1.0.0",
   "description": "A cross-browser, accessible React wrapper for the HTML5 <progress> tag",
+  "keywords": [
+    "progress-bar",
+    "react",
+    "typescript",
+    "cross-browser",
+    "accessible"
+  ],
   "main": "index.tsx",
   "scripts": {
     "start": "parcel index.html",
@@ -11,9 +18,6 @@
     "type": "git",
     "url": "git+https://github.com/mcmillhj/react-progress-simple.git"
   },
-  "keywords": [
-    "progress"
-  ],
   "author": "Hunter McMillen <mcmillhj+npm@gmail.com>",
   "license": "MIT",
   "bugs": {

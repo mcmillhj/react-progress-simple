@@ -103,8 +103,9 @@ const Progress: React.SFC<ProgressProps> = ({
 
     return (
       <progress
+        aria-valuemax={max}
+        aria-valuenow={value > max ? max : value}
         style={inlineVariables}
-        id="progress"
         className={"progress"}
         max={isComplete ? 100 : max}
         value={isComplete ? 100 : value}
@@ -114,7 +115,11 @@ const Progress: React.SFC<ProgressProps> = ({
   }
 
   return (
-    <React.Fragment>
+    <div
+      role="progressbar"
+      aria-valuemax={max}
+      aria-valuenow={value > max ? max : value}
+    >
       {[...new Array(max)].map((_, idx) => {
         const className = [
           "progress",
@@ -126,8 +131,8 @@ const Progress: React.SFC<ProgressProps> = ({
 
         return (
           <progress
+            aria-hidden
             style={inlineVariables}
-            id="progress"
             key={idx}
             className={className}
             max={1}
@@ -136,7 +141,7 @@ const Progress: React.SFC<ProgressProps> = ({
           />
         );
       })}
-    </React.Fragment>
+    </div>
   );
 };
 
