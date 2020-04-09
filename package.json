@@ -9,10 +9,14 @@
     "cross-browser",
     "accessible"
   ],
-  "main": "index.tsx",
+  "main": "dist/progress.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build progress.tsx"
+    "build": "parcel build progress.tsx",
+    "prepublish": "tsc --noEmit && npm run build"
   },
   "repository": {
     "type": "git",
@@ -34,10 +38,24 @@
     "@babel/preset-react": "^7.9.4",
     "@types/react": "^16.9.32",
     "@types/react-dom": "^16.9.6",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.1.3",
     "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "typescript": "^3.8.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,json,scss,md}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "dependencies": {}
 }
