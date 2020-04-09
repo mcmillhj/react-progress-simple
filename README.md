@@ -1,6 +1,6 @@
 # react-progress-simple
 
-A cross-browser, accessible React wrapper for the HTML5 `<progress>` tag
+A tiny, cross-browser, accessible React wrapper for the HTML5 `<progress>` tag.
 
 1. [Installation](#Installation)
 2. [Usage](#Usage)
