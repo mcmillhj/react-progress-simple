@@ -105,7 +105,7 @@ const Progress: React.SFC<ProgressProps> = ({
       <progress
         aria-valuemax={max}
         aria-valuenow={value > max ? max : value}
-        style={inlineVariables}
+        style={inlineVariables as CSSProperties}
         className={"progress"}
         max={isComplete ? 100 : max}
         value={isComplete ? 100 : value}
@@ -132,7 +132,7 @@ const Progress: React.SFC<ProgressProps> = ({
         return (
           <progress
             aria-hidden
-            style={inlineVariables}
+            style={inlineVariables as CSSProperties}
             key={idx}
             className={className}
             max={1}
