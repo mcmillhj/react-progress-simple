@@ -89,12 +89,12 @@ const Progress: React.SFC<ProgressProps> = ({
 
   // variables need to be inline to ensure that values are distinct across instances of the <Progress /> component
   const inlineVariables = {
-    "--width": mergedOptions.width,
-    "--height": mergedOptions.height,
-    "--foreground-color": mergedOptions.foregroundColor,
-    "--background-color": mergedOptions.backgroundColor,
-    "--border-radius": mergedOptions.borderRadius,
-    "--segment-margin": mergedOptions.separatorWidth,
+    "--rps-width": mergedOptions.width,
+    "--rps-height": mergedOptions.height,
+    "--rps-foreground-color": mergedOptions.foregroundColor,
+    "--rps-background-color": mergedOptions.backgroundColor,
+    "--rps-border-radius": mergedOptions.borderRadius,
+    "--rps-segment-margin": mergedOptions.separatorWidth,
   };
 
   if (!segmented) {
