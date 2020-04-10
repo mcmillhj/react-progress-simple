@@ -18,7 +18,7 @@
     "start": "parcel index.html",
     "build": "parcel build --no-source-maps progress.tsx && npm run generate:types",
     "generate:types": "tsc -p tsconfig.typedefs.json && mv progress.d.ts dist/index.d.ts",
-    "prepublish": "tsc --noEmit && npm run build"
+    "prepublishOnly": "tsc --noEmit && npm run build"
   },
   "repository": {
     "type": "git",
