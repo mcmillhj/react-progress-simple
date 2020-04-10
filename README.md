@@ -26,23 +26,23 @@ Two different styles of progress bars:
 
 1. Continuous
 
-   ```js
-   <Progress value={1} max={10} />
-   <Progress value={5} max={10} />
-   <Progress value={10} max={10} />
-   ```
+```js
+<Progress value={1} max={10} />
+<Progress value={5} max={10} />
+<Progress value={10} max={10} />
+```
 
-   ![Image of continuous progress bars](/docs/continuous-example.png)
+![Image of continuous progress bars](/docs/continuous-example.png)
 
 2. Segmented
 
-   ```js
-   <Progress value={1} max={25} segmented />
-   <Progress value={12} max={25} segmented />
-   <Progress value={25} max={25} segmented />
-   ```
+```js
+<Progress value={1} max={25} segmented />
+<Progress value={12} max={25} segmented />
+<Progress value={25} max={25} segmented />
+```
 
-   ![Image of segmented progress bars](/docs/segmented-example.png)
+![Image of segmented progress bars](/docs/segmented-example.png)
 
 ### Changing styles (component by component)
 
