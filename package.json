@@ -1,6 +1,6 @@
 {
   "name": "react-progress-simple",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A cross-browser, accessible React wrapper for the HTML5 <progress> tag",
   "keywords": [
     "progress-bar",
